@@ -1,0 +1,54 @@
+#projects {
+    height: 100vh;
+    background: rgb(24, 24, 24);
+    color: whitesmoke;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#my-projects {
+    position: relative;
+    top: 15%;
+    width: 90%;
+    margin: auto;
+}
+
+#project-cards {
+    display: flex;
+    flex-direction: row;
+    margin: 40px 0;
+}
+
+#url-shortener, #car-rental {
+    width: 40%;
+    margin: 0 30px;
+    background: whitesmoke;
+    color: black;
+    padding: 15px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+#stack {
+    list-style-type: none;
+}
+
+#stack li {
+    display: inline;
+    margin: 0 8px;
+    padding: 5px;
+    background: black;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+#links li a {
+    color: black;
+}
+
+#links li a:hover {
+    color: rgb(39, 0, 145);
+    transition: 0.1s all ease-in;
+}

@@ -1,0 +1,25 @@
+#exp {
+    height: 100vh;
+    background: rgb(24, 24, 24);
+    color: whitesmoke;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.my-exp {
+    position: relative;
+    top: 10%;
+    width: 90%;
+    margin: auto;
+}
+
+h3 {
+    text-align: left;
+}
+
+#degree {
+    margin-bottom: 8px; 
+}
+
+#college, #school {
+    color: rgb(74, 120, 248);
+}

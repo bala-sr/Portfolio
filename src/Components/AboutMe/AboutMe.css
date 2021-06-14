@@ -1,0 +1,43 @@
+#about {
+    height: 100vh;
+    background: rgb(24, 24, 24);
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.aboutme {
+    width: 90%;
+    margin: 10px auto;
+    text-align: left;
+    position: relative;
+    top:10%;
+}
+
+.aboutme p {
+    font-size: 20px;
+}
+
+.skills {
+    width: 90%;
+    margin: auto;
+}
+
+.college {
+    
+    color: rgb(74, 120, 248);
+}
+
+.college:hover {
+    text-decoration: none;
+    transition: all 0.2s ease-out;
+}
+
+#my-skills {
+    font-size: 20px;
+}
+
+span {
+    color: rgb(74, 120, 248);
+}
