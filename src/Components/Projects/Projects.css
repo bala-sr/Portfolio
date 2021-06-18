@@ -45,10 +45,137 @@ img {
 }
 
 #links li a {
+    max-width: inherit;
     color: black;
 }
 
 #links li a:hover {
     color: rgb(39, 0, 145);
     transition: 0.1s all ease-in;
+}
+
+@media screen and (max-height: 1200px) {
+    #project-cards {
+        margin: 20px 0;
+    }
+
+    #stack li {
+    margin: 0 5px;
+    padding: 3px;
+    background: black;
+    color: whitesmoke;
+    border-radius: 5px;
+    font-size: 15px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    img {
+        height: 80px;
+        width: 80px;
+    }
+
+    #stack {
+        padding: 0;
+        overflow: auto;
+    }
+
+    #stack li {
+        margin: 0 2px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #projects {
+        height: 110vh;
+    }
+    .app {
+        width: 100%;
+    }
+
+    #project-cards {
+        flex-direction: column;
+    }
+    
+    #url-shortener, #car-rental {
+        width: 100%;
+        padding: 5px 20px;
+        margin: 5px 0;
+    }
+
+    P {
+        margin-bottom: 5px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    #links {
+        padding-left: 10px; 
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 5px 0;
+    }
+
+    img {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+b {
+    font-size: inherit;
+}
+
+@media screen and (max-width: 500px) {
+    #my-projects {
+        position: relative;
+        top: 12%;
+        width: 90%;
+        margin: auto;
+    }
+
+    #projects {
+        height: 100vh;
+    }
+    .app {
+        width: 100%;
+    }
+
+    #project-cards {
+        flex-direction: column;
+        margin: 10px 0;
+    }
+    
+    #url-shortener, #car-rental {
+        width: 100%;
+        padding: 5px 20px;
+        margin-bottom: 5px;
+    }
+
+    P {
+        margin-bottom: 5px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    #links {
+        padding-left: 10px; 
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 5px 0;
+        font-size: 15px;
+    }
+
+    img {
+        height: 50px;
+        width: 50px;
+    }
 }

@@ -12,28 +12,18 @@ function Projects() {
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgQ84oV-xK3dZcLvF_9Rf9RNj4io1_NvmLrQ&usqp=CAU" />
                             Url Shortener
                         </h1>
-                        <p><i>Are long URLs troubling you? Shorten your URL here!!</i></p>
-                        <h5>Features: </h5>
-                        <ul>
-                            <li>Login feature with password reset</li>
-                            <li>Authorization using JWT</li>
-                            <li>View the history of URLs shortened</li>
-                        </ul>
-                        <ul id="stack">
-                            <li>HTML, CSS</li>
-                            <li>NodeJS</li>
-                            <li>ExpressJS</li>
-                            <li>MongoDB</li>
-                        </ul>
+                        <p id="stack">
+                        <b>Technology used:</b> HTML, CSS, NodeJS, ExpressJS, MongoDB
+                        </p>
                         <h5>Links: </h5>
                         <ul id="links">
                             <li>Frontend:  
-                                <a href="https://github.com/bala-sr/URL-Shortener-fe" target="_blank">
+                                <a href="https://github.com/bala-sr/URL-Shortener-fe" target="_blank" rel="noreferrer">
                                     https://github.com/bala-sr/URL-Shortener-fe
                                 </a>
                             </li>
                             <li>Backend:  
-                                <a href="https://github.com/bala-sr/URL-Shortener-be" target="_blank">
+                                <a href="https://github.com/bala-sr/URL-Shortener-be" target="_blank" rel="noreferrer">
                                     https://github.com/bala-sr/URL-Shortener-be
                                 </a>
                             </li>
@@ -49,29 +39,19 @@ function Projects() {
                             <img src="https://images.pexels.com/photos/1841120/pexels-photo-1841120.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
                             Car Rental Service
                         </h1>
-                        <p><i>No Car? No problem! Rent a car here!!</i></p>
-                        <h5>Features: </h5>
-                        <ul>
-                            <li>Login as user and admin</li>
-                            <li>Pay online using Payment Gateway</li>
-                            <li>View all bookings and its status as admin</li>
-                        </ul>
-                        <ul id="stack">
-                            <li>ReactJS</li>
-                            <li>NodeJS</li>
-                            <li>ExpressJS</li>
-                            <li>MongoDB</li>
-                        </ul>
+                        <p id="stack">
+                            <b>Technology used:</b> ReactJS, NodeJS, ExpressJS, MongoDB
+                        </p>
                         <h5>Links: </h5>
                         <ul id="links">
                             <li>Frontend:  
-                                <a href="https://github.com/bala-sr/URL-Shortener-fe" target="_blank">
-                                    https://github.com/bala-sr/URL-Shortener-fe
+                                <a href="https://github.com/bala-sr/Car-Rental-fe" target="_blank">
+                                https://github.com/bala-sr/Car-Rental-fe
                                 </a>
                             </li>
                             <li>Backend:  
-                                <a href="https://github.com/bala-sr/URL-Shortener-be" target="_blank">
-                                    https://github.com/bala-sr/URL-Shortener-be
+                                <a href="https://github.com/bala-sr/Car-Rental-be" target="_blank">
+                                https://github.com/bala-sr/Car-Rental-be
                                 </a>
                             </li>
                             <li>Demo URL:  

@@ -47,3 +47,47 @@
     background: rgb(36, 94, 252);
     transition: all 0.2s ease-out;
 }
+
+@media screen and (max-width: 800px) {
+    .greetings {
+        margin: 0;
+        position: relative;
+        top: 25%;
+        left: 5%;
+        width: 90vw;
+    }
+
+    .hi {
+        font-size: 20px;
+    }
+
+    .name {
+        font-size: 40px;
+    }
+
+    .designation {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .greetings {
+        margin: 0;
+        position: relative;
+        top: 25%;
+        left: 5%;
+        width: 90vw;
+    }
+
+    .hi {
+        font-size: 18px;
+    }
+
+    .name {
+        font-size: 30px;
+    }
+
+    .designation {
+        font-size: 18px;
+    }
+}

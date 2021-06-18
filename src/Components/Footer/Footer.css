@@ -26,16 +26,13 @@ b {
     font-size: 20px;
 }
 
-#go-top {
-    float: right;
-    margin: 0 20px;
-    background: whitesmoke;
-    border: none;
-    outline: none;
-
+span {
+    color: whitesmoke !important;
+    margin-left: 10px;
 }
 
-#go-top a {
-    text-decoration: none;
-    color: black;
+@media screen and (max-width: 600px) {
+    span {
+        font-size: 15px;
+    }
 }

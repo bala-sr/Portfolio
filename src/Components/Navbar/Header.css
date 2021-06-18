@@ -8,6 +8,7 @@
     font-size: 18px;
     height: 70px;
     width: 100%;
+    max-width: 100%;
     position: fixed;
     z-index: 10;   
 }
@@ -26,12 +27,12 @@
 .brand-name {
     font-size: 40px;
     margin-left:60px;
-    color: rgb(74, 120, 248);
     cursor: pointer;
 }
 
 .brand:hover {
     text-decoration: none;
+    color: rgb(74, 120, 248) !important;
 }
 
 .navbar-links {
@@ -59,10 +60,11 @@
 .navbar-links a:hover {
     color: rgb(74, 120, 248);
     transition: all 0.2s ease-out;
-} 
+}
 
 .navbar-links-mobile {
     display: none;
+    background:rgb(29, 29, 29);
 }
 
 @media (max-width: 950px) {
