@@ -11,6 +11,19 @@
     max-width: 100%;
     position: fixed;
     z-index: 10;   
+    animation: 1s slide-down;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+/* Animations */
+@keyframes slide-down {
+    from {
+        margin-top: -10%;
+    }
+    to {
+        margin-top: 0;
+    }
 }
 
 .toggle-btn {
@@ -28,6 +41,7 @@
     font-size: 40px;
     margin-left:60px;
     cursor: pointer;
+    color: rgb(74, 120, 248) !important;
 }
 
 .brand:hover {

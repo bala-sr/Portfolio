@@ -5,11 +5,69 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+#my-exp {
+    background-color: rgb(27, 27, 27);
+    position: relative;
+    top: 20%;
+    width: 50%;
+    height: 60%;
+    margin: auto;
+    animation: 1s slide-up;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide-up {
+    from {
+        top: 30%;
+    }
+    to {
+        top: 20%;
+    }
+}
+
+#heading {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    background: rgb(74, 120, 248);
+}
+
+.exp-heading {
+    width: 50%;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#wexp-text h4 {
+    color: rgb(74, 120, 248);
+}
+
 .my-exp {
     position: relative;
-    top: 10%;
+    top: 12%;
     width: 90%;
     margin: auto;
+}
+
+#wexp {
+    /* background: blue; */
+    background: rgb(97, 255, 247);
+}
+
+#wexp, #edu {
+    outline: none;
+}
+
+.exp-content {
+    padding: 5px 8px;
+}
+
+#edu-text {
+    display: none;
 }
 
 h3 {
@@ -22,4 +80,26 @@ h3 {
 
 #college, #school {
     color: rgb(74, 120, 248);
+}
+
+@media screen and (max-width: 500px) {
+    h4 {
+        font-size: 18px;
+    }
+
+    p, ul li {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #my-exp {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #my-exp {
+        width: 80%;
+    }
 }

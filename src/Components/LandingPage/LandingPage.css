@@ -5,12 +5,26 @@
     margin: 0;
 }
 
+
 .greetings {
     margin: 0;
     position: relative;
     top: 25%;
     left: 10%;
     width: 700px;
+    animation: 1s slide-up;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+/* Animations */
+@keyframes slide-up {
+    from {
+        top: 40%;
+    }
+    to {
+        top: 25%;
+    }
 }
 
 .hi {
@@ -46,6 +60,31 @@
 .resume:hover {
     background: rgb(36, 94, 252);
     transition: all 0.2s ease-out;
+}
+
+#media-links {
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    padding: 0 10px;
+}
+
+#media-links ul {
+    list-style-type: none;
+}
+
+#media-links ul li {
+    padding: 6px 0;
+}
+
+.fa, .fab {
+    color: whitesmoke;
+    transition: transform .2s;
+}
+
+.fa:hover, .fab:hover {
+    transform: scale(1.5);
+    color: rgb(36, 94, 252);
 }
 
 @media screen and (max-width: 800px) {

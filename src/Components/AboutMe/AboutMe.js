@@ -18,11 +18,32 @@ function AboutMe() {
             <section className="skills">
                 <h1>Skills</h1>    
                 <ul id="my-skills">
-                    <li>Frontend: <span>HTML, CSS, ReactJS</span></li>
-                    <li>Backend: <span>NodeJS, ExpressJS</span></li>
-                    <li>Database: <span>SQL, MongoDB</span></li>
-                    <li>Version Control: <span>Git</span></li>
-                    <li>Tools: <span>VS Code, Postman</span></li>
+                    <li>
+                        Frontend:
+                        <button>HTML</button>
+                        <button>CSS</button>
+                        <button>ReactJS</button>
+                    </li>
+                    <li>
+                        Backend: 
+                        <button>NodeJS</button>
+                        <button>ExpressJS</button>
+
+                    </li>
+                    <li>
+                        Database: 
+                        <button>SQL</button>
+                        <button>MongoDB</button>
+                    </li>
+                    <li>
+                        Version Control: 
+                        <button>Git</button>
+                    </li>
+                    <li>
+                        Tools: 
+                        <button>VS Code</button>
+                        <button>Postman</button>
+                    </li>
                 </ul>
             </section>            
         </div>

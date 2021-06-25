@@ -9,7 +9,7 @@ function Header() {
 
     return (
         <nav className="navbar">
-            <a className="brand" href="#landing-page"><span className="brand-name">B</span></a>
+            <a className="brand" href="#landing-page"><span className="brand-name"><b>B</b></span></a>
             <a className="toggle-btn" onClick={toggle}>
                 {/* <FontAwesomeIcon icon={faBars} size="2x" /> */}
                 <i className={clicked === true ? "fas fa-times fa-2x" : "fas fa-bars fa-2x"}></i>
