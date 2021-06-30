@@ -37,11 +37,10 @@ function Experience() {
                     <button className="exp-heading" id="edu" onClick={() => toggle("edu")}>Education</button>
                 </section>
                 <section className="exp-content" id="wexp-text">
-                    <h1>Work Experience</h1>
-                    <h4><b>Programmer Analyst</b></h4>
+                    <h3><b>Programmer Analyst</b></h3>
                     <h5>Cognizant</h5>
                     <p><i>(Jun-2019 - present)</i></p>
-                    <h6><b>Job Responsibilities:</b></h6>
+                    <h5><b>Job Responsibilities:</b></h5>
                     <ul>
                         <li>To monitor the production activities in 6 different sites</li>
                         <li>To handle any production disruptions occurring due to data issue in the file</li>
@@ -51,7 +50,6 @@ function Experience() {
                     </ul>
                 </section>
                 <section className="exp-content" id="edu-text">
-                    <h1>Education</h1>
                     <h4 id="college"><b>SASTRA UNIVERSITY, Thanjavur</b></h4>
                     <p id="degree">Bachelor of Technology, Electronics and Communication Engineering(2015-2019)</p>
                     <p id="cgpa">CGPA: 7.3913</p>

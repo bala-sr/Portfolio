@@ -1,6 +1,6 @@
 #exp {
     height: 100vh;
-    background: rgb(24, 24, 24);
+    background: radial-gradient(ellipse at top, #1b2735 0%, #090a0f 100%);
     color: whitesmoke;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -39,10 +39,10 @@
     border: 0;
     outline: 0;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 25px;
 }
 
-#wexp-text h4 {
+#wexp-text h3 {
     color: rgb(74, 120, 248);
 }
 
@@ -63,7 +63,7 @@
 }
 
 .exp-content {
-    padding: 5px 8px;
+    padding: 20px 8px;
 }
 
 #edu-text {
@@ -74,8 +74,13 @@ h3 {
     text-align: left;
 }
 
+ul li {
+    font-size: 18px;
+}
+
 #degree {
     margin-bottom: 8px; 
+    font-size: 15px;
 }
 
 #college, #school {
@@ -101,5 +106,8 @@ h3 {
 @media screen and (max-width: 700px) {
     #my-exp {
         width: 80%;
+    }
+    .exp-heading {
+        font-size: 20px;
     }
 }

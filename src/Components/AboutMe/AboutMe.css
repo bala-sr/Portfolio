@@ -1,6 +1,7 @@
 #about {
     height: 100vh;
-    background: rgb(24, 24, 24);
+    /* background: rgb(24, 24, 24); */
+    background: radial-gradient(ellipse at top, #1b2735 0%, #090a0f 100%);
     display: flex;
     flex-direction: column;
     color: whitesmoke;
@@ -8,11 +9,11 @@
 }
 
 .aboutme {
-    width: 90%;
-    margin: 10px auto;
+    width: 80%;
+    margin: 10px 30px;
     text-align: left;
     position: relative;
-    top:10%;
+    top:25%;
     opacity: 1;
     animation: fade 2s linear;
 }
@@ -26,21 +27,32 @@
     }
   }
 
+h1 {
+    color: whitesmoke !important;
+    text-align: left !important;
+    margin-left: 5%;
+}  
+
 #p-aboutme {
-    width: 50%;
+    width: 60%;
+    font-size: 19px;
+    margin-left: 5%;
 }
 
 #section-aboutme {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
 }
 
 #my-pic {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     margin: 0 20px;
     border-radius: 50%;
     filter: grayscale(100%);
+    align-content: flex-end;
 }
 
 #my-pic:hover {
@@ -69,17 +81,23 @@
     transition: all 0.2s ease-out;
 }
 
+label {
+    margin: 0;
+}
+
 #my-skills {
     font-size: 20px;
+    list-style-type: none;
 }
+
 
 #my-skills li {
     margin: 6px 0;
 }
 
 #my-skills li button {
-    background: whitesmoke;
-    color: black;
+    color: whitesmoke;
+    background: rgb(24, 24, 24);
     margin: 0 7px;
     border: none;
     outline: none;
@@ -92,11 +110,19 @@
     transform: scale(1.1);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
+    .container {
+        height: 15px;
+    }
+
+    .skill {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 850px) {
     #section-aboutme {
         font-size: 15px !important;
-        display: flex;
-        flex-direction: column-reverse;
     }
 
     #my-pic {
@@ -107,16 +133,31 @@
     }
 
     #p-aboutme {
-        width: 100%;
+        width: 65%;
         font-size: 18px !important;
+        margin-bottom: 10px;
     }
     
     .skills {
         font-size: 18px !important;
     }
+
+    #skills-heading {
+        margin: 10px 0;
+    }
+
+    .container {
+        height: 13px;
+        width: 50%;
+    }
+
+    .skill {
+        padding: 0;
+        height: 13px;
+    }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
     #section-aboutme {
         display: flex;
         flex-direction: column-reverse;
@@ -124,10 +165,26 @@
 
     #p-aboutme {
         width: 100%;
-        font-size: 18px;
+        font-size: 15px !important;
+        margin-bottom: 12px;
     }
 
     #my-skills {
         font-size: 18px;
+    }
+
+    .container {
+        height: 10px;
+        width: 60%;
+    }
+
+    .skill {
+        padding: 0;
+        height: 10px;
+        font-size: 9px;
+    }
+
+    #my-skills li {
+        margin: 3px 0;
     }
 }

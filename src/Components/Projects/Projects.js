@@ -5,7 +5,7 @@ function Projects() {
     return (
         <div id="projects">
             <section id="my-projects">
-                <h1>Projects</h1>
+                <h1><b>Projects</b></h1>
                 <section id="project-cards">
                     <section id="url-shortener">
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgQ84oV-xK3dZcLvF_9Rf9RNj4io1_NvmLrQ&usqp=CAU" />
@@ -98,6 +98,38 @@ function Projects() {
                                 </li>
                                 <li>
                                     <a href="https://balasr-video-app.netlify.app/" target="_blank">
+                                        Demo
+                                    </a>    
+                                </li>
+                            </ul>
+                        </section>
+                    </section>
+                    <section id="music-app">
+                            <img src="https://images.unsplash.com/photo-1611339555312-e607c8352fd7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bXVzaWMlMjBhcHB8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
+                        <section className="music-text">
+                            <h1 id="title">
+                                Music App
+                            </h1>
+                            <p id="desc">Listen to your favourite songs</p>
+                            <p id="stack">
+                                <button className="tech">ReactJS</button>
+                                <button className="tech">NodeJS</button>
+                                <button className="tech">ExpressJS</button>
+                                <button className="tech">Spotify API</button>
+                            </p>
+                            <ul id="links">
+                                <li>  
+                                    <a href="https://github.com/bala-sr/Music-App-be" target="_blank">
+                                    FrontendCode
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/bala-sr/Music-App-fe" target="_blank">
+                                    BackendCode
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://balasr-music-app.netlify.app/" target="_blank">
                                         Demo
                                     </a>    
                                 </li>

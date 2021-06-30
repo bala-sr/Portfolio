@@ -1,8 +1,12 @@
 #projects {
-    height: 100vh;
-    background: rgb(24, 24, 24);
+    height: 120vh;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
     color: whitesmoke;
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    color: rgb(24, 24, 24);
 }
 
 #my-projects {
@@ -14,16 +18,17 @@
 
 #project-cards {
     position: relative;
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    margin: 40px 0;
+    margin: 50px 0;
+    flex-wrap: wrap;
 }
 
-#url-shortener, #car-rental, #video-chat {
-    width: 40%;
-    height: 300px;
-    margin: 0 30px;
+#url-shortener, #car-rental, #video-chat, #music-app {
+    width: 30%;
+    height: 250px;
+    margin: 20px;
     background: whitesmoke;
     color: black;
     padding: 0;
@@ -76,6 +81,21 @@
     text-align: left;
 }
 
+.music-text {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translate(0%, 0%);
+    /* -ms-transform: translate(-50%, -50%); */
+    text-align: center;
+    width: 100%;
+    font-size: 18px !important;
+    padding: 10px;
+    text-align: left;
+}
+
 #desc {
     color: rgb(250, 250, 92);
 }
@@ -93,16 +113,16 @@ img {
     backface-visibility: hidden;
 }
 
-#url-shortener:hover, #car-rental:hover, #video-chat:hover {
+#url-shortener:hover, #car-rental:hover, #video-chat:hover, #music-app:hover {
     background: black;
     color: whitesmoke;
 }
 
-#url-shortener:hover img, #car-rental:hover img, #video-chat:hover img {
+#url-shortener:hover img, #car-rental:hover img, #video-chat:hover img, #music-app:hover img {
     opacity: 0.1;
 }
   
-#url-shortener:hover .url-text, #car-rental:hover .car-text, #video-chat:hover .video-text {
+#url-shortener:hover .url-text, #car-rental:hover .car-text, #video-chat:hover .video-text, #music-app:hover .music-text {
     opacity: 1;
 }
 
@@ -153,6 +173,10 @@ img {
         margin: 20px 0;
     }
 
+    #url-shortener, #car-rental, #video-chat, #music-app {
+        width: 40%;
+    }
+
     #stack li {
     margin: 0 5px;
     padding: 3px;
@@ -172,7 +196,7 @@ img {
         overflow: auto;
     }
 
-    .url-text, .car-text, .video-text {
+    .url-text, .car-text, .video-text, .music-text {
         font-size: 15px !important;
     }
 
@@ -182,7 +206,7 @@ img {
 }
 
 @media screen and (max-width: 900px) {
-    .url-text, .car-text, .video-text {
+    .url-text, .car-text, .video-text, .music-text {
         font-size: 13px !important;
     }
 
@@ -195,13 +219,13 @@ img {
 @media screen and (max-width: 800px) {
     #my-projects {
         position: relative;
-        top: 12%;
+        top: 10%;
         width: 90%;
         margin: auto;
     }
 
     #projects {
-        height: 160vh;
+        height: 200vh;
     }
 
     .app {
@@ -214,11 +238,11 @@ img {
         margin: 10px auto;
     }
 
-    .url-text, .car-text, .video-text {
+    .url-text, .car-text, .video-text, .music-text {
         font-size: 17px !important;
     }
     
-    #url-shortener, #car-rental, #video-chat {
+    #url-shortener, #car-rental, #video-chat, #music-app {
         position: relative;
         width: 100%;
         margin: 15px auto;
